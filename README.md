@@ -1,2 +1,3 @@
 # Dyula-to-French-Translation
-The saved models were stored in the following drive location : https://drive.google.com/drive/folders/1--7L52Ail6N39BxX1OWpEgvVX_e3T_ft?usp=sharing
+
+This repository contains the implementation of the Melio MLOps Machine Translation Challenge hosted by Zindi. The primary goal of this project is to demonstrate the deployment of a machine learning model using Highwind, while adhering to MLOps principles. As an additional feature, the model performs Dyula to French translation.

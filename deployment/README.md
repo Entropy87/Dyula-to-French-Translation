@@ -19,14 +19,14 @@ The saved_model is copied to the deployments folder. This was done using the cp 
 
 ### Local testing
 
-1. After building the Kserve predictor image that contains your model, spin it up to test your model inference
+1. After building the Kserve predictor image that contains the model, spin it up to test the model inference
 
     ```bash
     docker compose up -d
     docker compose logs
     ```
 
-1. Finally, send a payload to your model to test its response. To do this, use the `curl` cmmand to send a `POST` request with an example JSON payload.
+1. Finally, send a payload to the model to test its response. A `POST` request with an example JSON payload was used to test the response.
     ```
 
     Windows PowerShell
